@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "noservertexturepacks",
+  "version": "${version}",
+  "name": "Noservertexturepacks",
+  "description": "Allows you to play on a server without using their required texture pack (if any)",
+  "authors": [
+    "6Times"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/noservertexturepacks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "ml.ikwid.noservertexturepacks.client.NoservertexturepacksClient"
+    ]
+  },
+  "mixins": [
+    "noservertexturepacks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
